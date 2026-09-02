@@ -313,7 +313,17 @@ link.addEventListener("click", function() {
     window.open(telegramLink, "_blank");
 
 });
+function resizeGame() {
+    const game = document.getElementById("game");
 
+    const scale = Math.min(window.innerWidth / 700, 1);
+
+    game.style.transform = `scale(${scale})`;
+    game.style.transformOrigin = "top left";
+}
+
+window.addEventListener("resize", resizeGame);
+resizeGame();
 
 
 
