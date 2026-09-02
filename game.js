@@ -68,7 +68,7 @@ items.forEach(item => {
 
     const img = document.createElement("img");
 
-    img.src = `images/${item.name}.png`;
+    img.src = `Images/${item.name}.png`;
     img.className = "item";
     img.draggable = false;
     img.dataset.name = item.name;
@@ -193,7 +193,7 @@ function makeDraggable(element) {
 
 const restart = document.createElement("img");
 
-restart.src = "images/Restart.png";
+restart.src = "Images/Restart.png";
 
 restart.className = "game-button";
 restart.draggable = false;
@@ -235,7 +235,7 @@ restart.addEventListener("click", function() {
 
 const pic = document.createElement("img");
 
-pic.src = "images/Pic.png";
+pic.src = "Images/Pic.png";
 
 pic.className = "game-button";
 pic.draggable = false;
@@ -277,7 +277,7 @@ pic.addEventListener("click", function() {
     }
 
     game.style.backgroundImage =
-        `url("images/${backgrounds[currentBackground]}")`;
+        `url("Images/${backgrounds[currentBackground]}")`;
 
 });
 
@@ -287,7 +287,7 @@ pic.addEventListener("click", function() {
 
 const link = document.createElement("img");
 
-link.src = "images/Link.png";
+link.src = "Images/Link.PNG";
 
 link.className = "link";
 link.draggable = false;
