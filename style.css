@@ -25,7 +25,7 @@ body {
     overflow: hidden;
     touch-action: none;
 
-    background-image: url("images/bg.png");
+    background-image: url("Images/bg.png");
     background-size: 700px 700px;
     background-repeat: no-repeat;
     background-position: center;
